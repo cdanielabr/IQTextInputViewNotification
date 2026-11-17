@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/cdanielabr/IQKeyboardCore.git", from: "main"),
+        .package(url: "https://github.com/cdanielabr/IQKeyboardCore.git", branch: "main"),
     ],
     targets: [
         .target(name: "IQTextInputViewNotification",
